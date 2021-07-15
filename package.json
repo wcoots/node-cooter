@@ -1,6 +1,6 @@
 {
   "name": "cooter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "cooter package",
   "repository": {
     "type": "git",
@@ -12,9 +12,15 @@
   "author": "William Cooter <will@cooters.co.uk> (https://github.com/WillCooter)",
   "license": "MIT",
   "scripts": {
-    "dev": "node src/index.ts"
+    "dev": "node src/index.ts",
+    "test": "yarn jest"
   },
   "dependencies": {
     "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3"
   }
 }
