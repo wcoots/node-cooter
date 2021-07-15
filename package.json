@@ -1,0 +1,20 @@
+{
+  "name": "cooter",
+  "version": "0.0.1",
+  "description": "cooter package",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WillCooter/cooter"
+  },
+  "keywords": [
+    "cooter"
+  ],
+  "author": "William Cooter <will@cooters.co.uk> (https://github.com/WillCooter)",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.3.5"
+  }
+}
