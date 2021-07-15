@@ -1,1 +1,1 @@
-export { printInput } from "./main";
+export { printInput } from './main';
