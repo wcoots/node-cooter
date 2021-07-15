@@ -2,6 +2,8 @@
   "name": "cooter",
   "version": "0.0.3",
   "description": "cooter package",
+  "type": "module",
+  "module": "es2015",
   "repository": {
     "type": "git",
     "url": "https://github.com/WillCooter/cooter"
@@ -11,11 +13,18 @@
   ],
   "author": "William Cooter <will@cooters.co.uk> (https://github.com/WillCooter)",
   "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
-    "dev": "node src/index.ts",
+    "build": "tsc",
+    "dev": "node src/test.ts",
     "test": "yarn jest"
   },
   "dependencies": {
+    "cooter": "^0.0.3",
     "typescript": "^4.3.5"
   },
   "devDependencies": {
