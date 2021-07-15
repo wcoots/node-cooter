@@ -1,1 +1,1 @@
-console.log("hello");
+export { printInput } from "./main";
