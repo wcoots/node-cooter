@@ -13,7 +13,7 @@
   ],
   "author": "William Cooter <will@cooters.co.uk> (https://github.com/WillCooter)",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "dist/index.d.ts",
   "types": "dist/types.d.ts",
   "files": [
     "/dist"
