@@ -1,8 +1,14 @@
-import { printInput } from './main';
+import { isNaughty } from './main';
+import type { Response } from './types';
 
-describe('printInput', () => {
-  it('returns the input', () => {
-    const response = printInput('abcde');
-    expect(response).toEqual('input: abcde');
+describe('isNaughty', () => {
+  it('confirms naughtiness', () => {
+    const response = isNaughty('baloo');
+    expect(response).toEqual<Response>({ naughty: true });
+  });
+
+  it('denies naughtiness', () => {
+    const response = isNaughty('pablo');
+    expect(response).toEqual<Response>({ naughty: false });
   });
 });

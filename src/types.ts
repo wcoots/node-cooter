@@ -1,3 +1,3 @@
 export interface Response {
-  output: string;
+  naughty: boolean;
 }
