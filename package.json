@@ -2,7 +2,6 @@
   "name": "cooter",
   "version": "0.0.5",
   "description": "cooter package",
-  "type": "module",
   "module": "es2015",
   "repository": {
     "type": "git",
@@ -21,7 +20,7 @@
   "scripts": {
     "prebuild": "rm -rf dist",
     "build": "tsc",
-    "dev": "node src/test.ts",
+    "dev": "npx ts-node src/test.ts",
     "test": "yarn jest",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json"
