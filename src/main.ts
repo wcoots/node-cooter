@@ -11,5 +11,5 @@ export function isNaughty(input: string): IsNaughty.Response {
   const naughty = naughties.includes(input);
   const naughtiness = naughty ? input.length : 0;
 
-  return { naughty, naughtiness };
+  return { input, naughty, naughtiness };
 }
