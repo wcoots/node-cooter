@@ -1,2 +1,2 @@
 export { isNaughty } from './main';
-export { Response } from './types';
+export { IsNaughty } from './types';
