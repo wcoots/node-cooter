@@ -1,3 +1,7 @@
-export function printInput(input: string): string {
-  return `input: ${input}`;
+import type { Response } from './types';
+
+export function isNaughty(input: string): Response {
+  return {
+    naughty: input === 'baloo',
+  };
 }

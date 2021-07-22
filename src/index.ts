@@ -1,1 +1,2 @@
-export { printInput } from "./main";
+export { isNaughty } from './main';
+export { Response } from './types';
