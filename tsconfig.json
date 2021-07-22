@@ -1,14 +1,14 @@
 {
-  "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
-    "outDir": "./dist",
-    "declaration": true,
-    "removeComments": false,
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
-  },
-  "exclude": ["node_modules/", "src/test.ts", "src/**/*.spec.ts", "dist/", "jest.config.ts"]
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "outDir": "./dist",
+        "declaration": true,
+        "removeComments": false,
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "exclude": ["node_modules/", "src/test.ts", "src/**/*.spec.ts", "dist/", "jest.config.ts"]
 }

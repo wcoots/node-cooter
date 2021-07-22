@@ -8,8 +8,8 @@ const naughties = ['baloo', 'joel', 'louis', 'loïc', 'jose'];
  *  @returns IsNaughty.Response
  */
 export function isNaughty(input: string): IsNaughty.Response {
-  const naughty = naughties.includes(input);
-  const naughtiness = naughty ? input.length : 0;
+    const naughty = naughties.includes(input);
+    const naughtiness = naughty ? input.length : 0;
 
-  return { input, naughty, naughtiness };
+    return { input, naughty, naughtiness };
 }

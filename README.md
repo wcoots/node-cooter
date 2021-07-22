@@ -15,7 +15,6 @@
 # Installation
 
 ```bash
-yarn add cooter
 npm install cooter
 ```
 
