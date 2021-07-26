@@ -1,4 +1,4 @@
-# Cooter
+# Cooter npm package
 
 <p>
   <a href="https://www.npmjs.com/package/cooter">
