@@ -1,2 +1,2 @@
 # Security Policy
-See it. Say it. sorted.
+See it. Say it. Sorted.
