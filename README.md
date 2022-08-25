@@ -12,12 +12,12 @@
   </a>
 </p>
 
-# Installation
+## Installation
 
 ```bash
 npm install cooter
 ```
 
-# Features
+## Features
 
 This package is under development. Feature requests can be made [here](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
